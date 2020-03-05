@@ -1,0 +1,26 @@
+.slide p,
+.slide li {
+    font-size: 2rem;
+}
+
+.slide .small {
+    font-size: 1.6rem;
+}
+
+.slide .greyed-out * {
+    font-size: 1.2rem;
+    color: #555 !important;
+}
+
+.slide p {
+    margin-bottom: 0;
+}
+
+.slide code {
+    /* Remove the scrollbar in code samples */
+    max-width: 100%;
+}
+
+.slide.prism pre[class*="language-"] code {
+    line-height: 1.6em;
+}
